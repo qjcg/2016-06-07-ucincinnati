@@ -2,10 +2,10 @@
 layout: workshop
 root: .
 venue: "University of Cincinnati"
-address: "2600 Clifton Ave., Cincinnati OH 45221"
+address: "Health Sciences Library Troup Learning Center G005G (http://www.libraries.uc.edu/hsl/about/directions.html)"
 country: United-States
 language: "en"
-latlng: "39.132112,-84.514354"
+latlng: "39.1387745,-84.5065134"
 humandate: "Jun 7-8, 2016"
 humantime: "9:00 am - 4:30 pm"
 startdate: 2016-06-07
@@ -74,7 +74,7 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <p>
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at faculty researchers.
 </p>
 
 <!--
@@ -88,7 +88,8 @@ Participants should bring their laptops and plan to participate actively. By the
 {% if page.latlng %}
 <p>
   <strong>Where:</strong>
-  {{page.address}}.
+  Health Sciences Library Troup Learning Center G005G
+  (<a href="http://www.libraries.uc.edu/hsl/about/directions.html">http://www.libraries.uc.edu/hsl/about/directions.html</a>).
   Get directions with
   <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
   or
@@ -119,12 +120,10 @@ Participants should bring their laptops and plan to participate actively. By the
 -->
 <p>
   <strong>Contact</strong>:
-  Please mail
-  {% if page.contact %}
-    <a href='mailto:{{page.contact}}'>{{page.contact}}</a>
-  {% else %}
-    <a href='mailto:{{site.contact}}'>{{site.contact}}</a>
-  {% endif %}
+  Please email Kristen Burgess
+  (<a href='mailto:burgeskt@ucmail.uc.edu'>burgeskt@ucmail.uc.edu</a>)
+  or Ted Baldwin
+  (<a href='mailto:baldwitw@ucmail.uc.edu'>baldwitw@ucmail.uc.edu</a>)
   for more information.
 </p>
 
